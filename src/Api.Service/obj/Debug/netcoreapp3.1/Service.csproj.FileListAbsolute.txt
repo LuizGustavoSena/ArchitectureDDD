@@ -1,0 +1,9 @@
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/Service.deps.json
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/Service.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/Service.pdb
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csprojAssemblyReference.cache
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfoInputs.cache
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfo.cs
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.pdb
