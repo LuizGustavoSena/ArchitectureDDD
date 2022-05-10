@@ -11,10 +11,12 @@ namespace Api.Data.Context
             DotNetEnv.Env.Load();
             var server = Environment.GetEnvironmentVariable("SERVER");
             var port = Environment.GetEnvironmentVariable("PORT");
+            var user = Environment.GetEnvironmentVariable("USER");
+            var password = Environment.GetEnvironmentVariable("PASSWORD");
 
-            var connecctionString = $"Server='{server}';Port='{port}';Database=DbApi;Uid=root;";
+            var connecctionString = $"server='{server}','{port}';database=dbApi;user='{user}';password='{password}'";
             var optionBuilder = new DbContextOptionsBuilder<MyContext>();
-            optionBuilder.UseMySql(connecctionString);
+            optionBuilder.UseSqlServer(connecctionString);
             return new MyContext(optionBuilder.Options);
         }
     }

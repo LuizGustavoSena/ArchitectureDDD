@@ -10,3 +10,6 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.json
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.dev.json
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/obj/Debug/netcoreapp3.1/Data.genruntimeconfig.cache
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CopyComplete

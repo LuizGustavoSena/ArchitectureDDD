@@ -42,7 +42,7 @@
           "dependencies": {
             "DotNetEnv": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[2.3.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",

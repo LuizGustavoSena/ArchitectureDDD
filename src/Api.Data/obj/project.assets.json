@@ -7295,7 +7295,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Domain >= 1.0.0",
-      "DotNetEnv >= *",
+      "DotNetEnv >= 2.3.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.24",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.24",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.24",
@@ -7343,7 +7343,7 @@
         "dependencies": {
           "DotNetEnv": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[2.3.0, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers",
