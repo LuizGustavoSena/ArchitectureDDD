@@ -87,7 +87,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/Data.csproj": {
+                "projectPath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/Data.csproj"
+              },
+              "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/Domain.csproj"
+              },
+              "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/Service.csproj": {
+                "projectPath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -98,6 +108,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -268,9 +284,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/CrossCutting.csproj": {
-                "projectPath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/CrossCutting.csproj"
-              },
               "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/Data.csproj": {
                 "projectPath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/Data.csproj"
               },

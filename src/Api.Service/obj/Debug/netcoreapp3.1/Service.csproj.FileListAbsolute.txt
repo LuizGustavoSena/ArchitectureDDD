@@ -7,10 +7,8 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.pdb
-/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/CrossCutting.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/Data.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/Domain.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/Domain.pdb
-/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/CrossCutting.pdb
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/bin/Debug/netcoreapp3.1/Data.pdb
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CopyComplete

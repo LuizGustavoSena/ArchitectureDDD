@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uA+NJVdPx7m8kQRN2rIOyxE5YirtpvcjvcRJDwvoigYAN/VM9+W7Sy7O70EhwB/InEgJxfuiOcxHDUSMU/nDFw==",
+  "dgSpecHash": "9RGB2tHO5e3K3EemqtOvhJHpqJ/y02ZgO6NuuP02C2AMB5tuv/IhxzqMP6vUoK7KtM/FgoL/0L9Zs+xm3ouMFA==",
   "success": true,
   "projectFilePath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/application.csproj",
   "expectedPackageFiles": [
+    "/Users/luizsena/.nuget/packages/automapper/8.1.1/automapper.8.1.1.nupkg.sha512",
+    "/Users/luizsena/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/6.1.1/automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
     "/Users/luizsena/.nuget/packages/dotnetenv/2.3.0/dotnetenv.2.3.0.nupkg.sha512",
     "/Users/luizsena/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/luizsena/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

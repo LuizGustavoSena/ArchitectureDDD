@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Api.Domain\Domain.csproj" />
-    <ProjectReference Include="..\Api.CrossCutting\CrossCutting.csproj" />
     <ProjectReference Include="..\Api.Data\Data.csproj" />
   </ItemGroup>
 
