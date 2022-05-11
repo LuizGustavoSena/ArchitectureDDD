@@ -72,3 +72,8 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/obj/Debug/netcoreapp3.1/application.csproj.CopyComplete
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/obj/Debug/netcoreapp3.1/application.MvcApplicationPartsAssemblyInfo.cs
