@@ -9,10 +9,10 @@ namespace Api.Domain.Security
         {
             using (var paramets = new RSACryptoServiceProvider(2048))
             {
-                this.Key = new RsaSecurityKey(paramets.ExportParameters(true));
+                Key = new RsaSecurityKey(paramets.ExportParameters(true));
             }
 
-            this.SigningCredentials = new SigningCredentials(this.Key, SecurityAlgorithms.RsaSha256Signature);
+            SigningCredentials = new SigningCredentials(Key, SecurityAlgorithms.RsaSha256Signature);
         }
 
         public SecurityKey Key { get; set; }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zo205OzDViD8/pP0zJfXLiCI3VOCm2TUvesXKopVMRUBCpN/iZawbiiU2L7s8VXmphLb2Pbh8JL+0l7d+M8qAA==",
+  "dgSpecHash": "ZTZssBf48VJnTr5BtTmyrYlqpG6Rds9tM0NG0yzhGlfddLuZByQM0Lcl9xrt0R811Z8XffH3GqjvST5boRlfjw==",
   "success": true,
   "projectFilePath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Service/Service.csproj",
   "expectedPackageFiles": [

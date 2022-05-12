@@ -1372,6 +1372,9 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "System.IdentityModel.Tokens.Jwt": "5.5.0"
+        },
         "runtime": {
           "Domain.dll": {}
         }

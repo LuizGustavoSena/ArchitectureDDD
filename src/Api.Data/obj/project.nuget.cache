@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jccghZV1hNsdFLFVySDN2y3OXN+W5AlDLtEwY3CWn4i0/LsR6D8ojpYgxvUWqRbYgmjRZKhJcuIs1QFFNcmkiQ==",
+  "dgSpecHash": "Re7eaw1h5ZvIJBXekkO9f4nw0ZA1dYz6aBYwSH1mHulHPd5cshXcB8rNZuehaczr4blbKyYUxW/uXPAMBy4kvQ==",
   "success": true,
   "projectFilePath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Data/Data.csproj",
   "expectedPackageFiles": [
