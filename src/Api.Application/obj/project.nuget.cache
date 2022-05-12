@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "unW3CI2B87sxHulbor2WJ1aM5mRsCqd8x/MjwwU4f6/2ShXjhbxXNyav5s+bUZsGn7LGpdLqbiKadOQSoOFRQg==",
+  "dgSpecHash": "RlhZvXDnlx1PuVLLiv5m0JT+D8p3vqhZbJ5XZFywK6L201tkO0K5vloCeQ5ISSv2OW0wCBdkHozcw1CPf5zVeA==",
   "success": true,
   "projectFilePath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/application.csproj",
   "expectedPackageFiles": [
     "/Users/luizsena/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
     "/Users/luizsena/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.0.1/automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "/Users/luizsena/.nuget/packages/dotnetenv/2.3.0/dotnetenv.2.3.0.nupkg.sha512",
+    "/Users/luizsena/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/3.1.6/microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
     "/Users/luizsena/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/luizsena/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "/Users/luizsena/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

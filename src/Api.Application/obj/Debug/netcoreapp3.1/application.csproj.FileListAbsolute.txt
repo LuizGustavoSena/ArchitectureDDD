@@ -77,3 +77,4 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/obj/Debug/netcoreapp3.1/application.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/obj/Debug/netcoreapp3.1/application.pdb
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/obj/Debug/netcoreapp3.1/application.genruntimeconfig.cache
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
