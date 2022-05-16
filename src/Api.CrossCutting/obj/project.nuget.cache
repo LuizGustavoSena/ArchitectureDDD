@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gtW45yGkEVk58rtLNi9E+N9OUhke18boXez8C8SvAToaDGPsdodRMjmeQq00c1X/50MUfGv3032d0cC4hmYarQ==",
+  "dgSpecHash": "26eyvcqeuIAgDNpyiJoKSnBTL+Kv9pMP424B7V0m/wBKQ8B7d4W1Aj/ahU0XMydJivP/XJ1zw6wqPmP9tRD3WQ==",
   "success": true,
   "projectFilePath": "/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/CrossCutting.csproj",
   "expectedPackageFiles": [
