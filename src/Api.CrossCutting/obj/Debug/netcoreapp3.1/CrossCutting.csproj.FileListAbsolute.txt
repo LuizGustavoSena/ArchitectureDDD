@@ -1,7 +1,3 @@
-/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csprojAssemblyReference.cache
-/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.AssemblyInfoInputs.cache
-/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.AssemblyInfo.cs
-/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csproj.CoreCompileInputs.cache
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.deps.json
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.pdb
@@ -11,6 +7,10 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Domain.pdb
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Service.pdb
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Data.pdb
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csprojAssemblyReference.cache
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.AssemblyInfoInputs.cache
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.AssemblyInfo.cs
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csproj.CoreCompileInputs.cache
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csproj.CopyComplete
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.pdb
