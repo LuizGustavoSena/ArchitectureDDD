@@ -9,6 +9,7 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/DotNetEnv.dll
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
@@ -77,4 +78,3 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/obj/Debug/netcoreapp3.1/application.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/obj/Debug/netcoreapp3.1/application.pdb
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/obj/Debug/netcoreapp3.1/application.genruntimeconfig.cache
-/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Application/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
