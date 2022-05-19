@@ -40,10 +40,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "DotNetEnv": {
-              "target": "Package",
-              "version": "[2.3.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",

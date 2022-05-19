@@ -1,6 +1,7 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/bin/Debug/netcoreapp3.1/Domain.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
