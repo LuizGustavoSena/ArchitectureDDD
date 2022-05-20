@@ -1,6 +1,8 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
 using Api.Data.Context;
+using Microsoft.EntityFrameworkCore;
+
 namespace Api.Data.Test
 {
     public abstract class BaseTest
@@ -22,7 +24,7 @@ namespace Api.Data.Test
             var connectionString = $"Persist Security Info-True;Server=localhost;Database={dataBaseName};User=root;Password=mudar@123";
             serviceCollection.AddDbContext<MyContext>(
                 options => options.UseSqlServer(connectionString),
-                serviceLifeTime.Transient
+                ServiceLifetime.Transient
             );
 
             ServiceProvider = serviceCollection.BuildServiceProvider();
