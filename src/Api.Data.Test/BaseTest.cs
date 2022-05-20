@@ -21,7 +21,7 @@ namespace Api.Data.Test
         public DbTest()
         {
             var serviceCollection = new ServiceCollection();
-            var connectionString = $"Persist Security Info-True;Server=localhost;Database={dataBaseName};User=root;Password=mudar@123";
+            var connectionString = $"server=localhost,1433;database={dataBaseName};user=sa;password=MyPass@word";
             serviceCollection.AddDbContext<MyContext>(
                 options => options.UseSqlServer(connectionString),
                 ServiceLifetime.Transient
