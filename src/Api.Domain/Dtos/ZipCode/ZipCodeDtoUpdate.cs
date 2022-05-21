@@ -11,7 +11,7 @@ namespace Api.Domain.Dtos.ZipCode
         public int Code { get; set; }
         [Required(ErrorMessage = "Campo Street é obrigatório")]
         public string Street { get; set; }
-        public int Number { get; set; }
+        public string Number { get; set; }
         [Required(ErrorMessage = "Campo CityId é obrigatório")]
         public Guid CityId { get; set; }
     }
