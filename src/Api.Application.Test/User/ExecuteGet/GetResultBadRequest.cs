@@ -28,7 +28,7 @@ namespace Api.Application.Test.User.ExecuteGet
             serviceMock.Setup(x => x.Get(It.IsAny<Guid>())).ReturnsAsync(userDto);
 
             _controller = new UsersController(serviceMock.Object);
-            _controller.ModelState.AddModelError("Email", "Campo obrigatório");
+            _controller.ModelState.AddModelError("Id", "Campo obrigatório");
 
             var result = await _controller.Get(userDto.Id);
             Assert.True(result is BadRequestObjectResult);
