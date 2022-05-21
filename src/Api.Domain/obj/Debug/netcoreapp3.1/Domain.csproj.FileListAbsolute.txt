@@ -6,4 +6,3 @@
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.dll
 /Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.pdb
-/Users/luizsena/Documents/Projetos/AspNetCore/ArchitectureDDD/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
