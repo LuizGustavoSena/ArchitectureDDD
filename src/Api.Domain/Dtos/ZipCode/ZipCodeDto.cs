@@ -1,0 +1,14 @@
+using System;
+using Api.Domain.Dtos.City;
+
+namespace Api.Domain.Dtos.ZipCode
+{
+    public class ZipCodeDto
+    {
+        public int Code { get; set; }
+        public string Street { get; set; }
+        public int Number { get; set; }
+        public Guid CityId { get; set; }
+        public CityDtoComplete City { get; set; }
+    }
+}
