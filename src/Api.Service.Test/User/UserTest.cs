@@ -24,20 +24,20 @@ namespace Api.Service.Test.User
                 });
             }
 
-            UserDto = new UserDto
+            userDto = new UserDto
             {
                 Name = UserName,
-                Id = Guid.NewGuid(),
+                Id = UserId,
                 Email = UserEmail
             };
 
-            UserDtoCreate = new UserDtoCreate
+            userDtoCreate = new UserDtoCreate
             {
                 Email = UserEmail,
                 Name = UserName
             };
 
-            UserDtoCreateResult = new UserDtoCreateResult
+            userDtoCreateResult = new UserDtoCreateResult
             {
                 CreateAt = DateTime.UtcNow,
                 Email = UserEmail,
@@ -45,14 +45,14 @@ namespace Api.Service.Test.User
                 Name = UserName
             };
 
-            UserDtoUpdate = new UserDtoUpdate
+            userDtoUpdate = new UserDtoUpdate
             {
                 Email = UserEmailAltered,
                 Name = UserNameAltered,
                 Id = Guid.NewGuid()
             };
 
-            UserDtoUpdateResult = new UserDtoUpdateResult
+            userDtoUpdateResult = new UserDtoUpdateResult
             {
                 Email = UserEmailAltered,
                 Name = UserNameAltered,
@@ -65,10 +65,10 @@ namespace Api.Service.Test.User
         public static string UserEmailAltered { get; set; }
         public Guid UserId { get; set; }
         public List<UserDto> ListUserDto = new List<UserDto>();
-        public UserDto UserDto;
-        public UserDtoCreate UserDtoCreate;
-        public UserDtoCreateResult UserDtoCreateResult;
-        public UserDtoUpdate UserDtoUpdate;
-        public UserDtoUpdateResult UserDtoUpdateResult;
+        public UserDto userDto;
+        public UserDtoCreate userDtoCreate;
+        public UserDtoCreateResult userDtoCreateResult;
+        public UserDtoUpdate userDtoUpdate;
+        public UserDtoUpdateResult userDtoUpdateResult;
     }
 }
