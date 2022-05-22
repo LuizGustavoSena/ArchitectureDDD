@@ -35,7 +35,7 @@ namespace Api.Data.Test
                 {
                     CityId = cityEntity.Id,
                     Code = 15975342,
-                    Number = 123,
+                    Number = "123",
                     Street = "Any_Street",
                 };
 
