@@ -7,7 +7,7 @@ namespace Api.Domain.Interfaces.Service.ZipCode
     public interface IZipCodeService
     {
         Task<ZipCodeDto> Get(Guid id);
-        Task<ZipCodeDto> Get(string cep);
+        Task<ZipCodeDto> Get(int cep);
         Task<ZipCodeDtoCreateResult> Post(ZipCodeDtoCreate cep);
         Task<ZipCodeDtoUpdateResult> Put(ZipCodeDtoUpdate cep);
         Task<bool> Delete(Guid id);
