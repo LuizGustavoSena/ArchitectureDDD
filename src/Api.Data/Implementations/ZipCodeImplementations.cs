@@ -15,7 +15,7 @@ namespace Api.Data.Implementations
             _dataset = context.Set<ZipCodeEntity>();
         }
 
-        public async Task<ZipCodeEntity> SelectAsync(string code)
+        public async Task<ZipCodeEntity> SelectAsync(int code)
         {
             return await _dataset.Include(x => x.City)
                                     .ThenInclude(x => x.State)
