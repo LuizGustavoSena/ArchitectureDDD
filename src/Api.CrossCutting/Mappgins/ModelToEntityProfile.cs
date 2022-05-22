@@ -10,6 +10,15 @@ namespace Api.CrossCutting.Mappgins
         {
             CreateMap<UserEntity, UserModel>()
                 .ReverseMap();
+
+            CreateMap<StateEntity, StateModel>()
+                .ReverseMap();
+
+            CreateMap<CityEntity, CityModel>()
+                .ReverseMap();
+
+            CreateMap<ZipCodeEntity, ZipCodeModel>()
+                .ReverseMap();
         }
     }
 }
