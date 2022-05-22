@@ -39,7 +39,6 @@ namespace Api.Application.Test.User.ExecutePut
             Assert.NotNull(resultValues);
             Assert.Equal(userDtoUpdate.Email, resultValues.Email);
             Assert.Equal(userDtoUpdate.Name, resultValues.Name);
-            Assert.NotNull(resultValues.UpdateAt);
         }
     }
 }
