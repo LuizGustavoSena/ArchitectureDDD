@@ -29,14 +29,14 @@ namespace Api.Service.Test.Mappings
                 listEntity.Add(new CityEntity
                 {
                     Id = Guid.NewGuid(),
-                    name = "Any_Name",
+                    name = $"Any_Name{i}",
                     Cod = 123456,
                     StateId = Guid.NewGuid(),
                     State = new StateEntity
                     {
                         Id = Guid.NewGuid(),
-                        Initials = "AS",
-                        Name = "Any_Name"
+                        Initials = "AS{i}",
+                        Name = $"Any_Name{i}"
                     },
                     CreateAt = DateTime.UtcNow,
                     UpdateAt = DateTime.UtcNow

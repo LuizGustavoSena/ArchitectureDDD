@@ -12,7 +12,7 @@ namespace Api.Domain.Entities
         [MaxLength(60)]
         public string Street { get; set; }
         [MaxLength(10)]
-        public int Number { get; set; }
+        public string Number { get; set; }
         [Required]
         public Guid CityId { get; set; }
         public CityEntity City { get; set; }
