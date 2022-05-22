@@ -6,6 +6,6 @@ namespace Api.Domain.Repository
 {
     public interface IZipCodeRepository : IRepository<ZipCodeEntity>
     {
-        Task<ZipCodeEntity> SelectAsync(string id);
+        Task<ZipCodeEntity> SelectAsync(string code);
     }
 }
