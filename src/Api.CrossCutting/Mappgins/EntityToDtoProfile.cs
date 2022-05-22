@@ -33,13 +33,20 @@ namespace Api.CrossCutting.Mappgins
                 .ReverseMap();
 
             CreateMap<CityDto, CityEntity>()
+                .ForMember(d => d.name, i => i.MapFrom(x => x.Name))
                 .ReverseMap();
 
             CreateMap<CityDtoComplete, CityEntity>()
-               .ReverseMap();
+                .ForMember(d => d.name, i => i.MapFrom(x => x.Name))
+                .ReverseMap();
 
             CreateMap<CityDtoCreateResult, CityEntity>()
-               .ReverseMap();
+                .ForMember(d => d.name, i => i.MapFrom(x => x.Name))
+                .ReverseMap();
+
+            CreateMap<CityDtoUpdateResult, CityEntity>()
+                .ForMember(d => d.name, i => i.MapFrom(x => x.Name))
+                .ReverseMap();
 
             CreateMap<ZipCodeDtoUpdateResult, CityEntity>()
                .ReverseMap();

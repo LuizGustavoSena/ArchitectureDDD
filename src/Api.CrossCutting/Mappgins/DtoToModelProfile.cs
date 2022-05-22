@@ -24,12 +24,15 @@ namespace Api.CrossCutting.Mappgins
                 .ReverseMap();
 
             CreateMap<CityModel, CityDto>()
+                .ForMember(d => d.Cod, i => i.MapFrom(x => x.Code))
                 .ReverseMap();
 
             CreateMap<CityModel, CityDtoCreate>()
+                .ForMember(d => d.Cod, i => i.MapFrom(x => x.Code))
                 .ReverseMap();
 
             CreateMap<CityModel, CityDtoUpdate>()
+                .ForMember(d => d.Cod, i => i.MapFrom(x => x.Code))
                 .ReverseMap();
 
             CreateMap<ZipCodeModel, ZipCodeDto>()

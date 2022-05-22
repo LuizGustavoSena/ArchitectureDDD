@@ -15,6 +15,7 @@ namespace Api.CrossCutting.Mappgins
                 .ReverseMap();
 
             CreateMap<CityEntity, CityModel>()
+                .ForMember(d => d.Code, i => i.MapFrom(x => x.Cod))
                 .ReverseMap();
 
             CreateMap<ZipCodeEntity, ZipCodeModel>()
