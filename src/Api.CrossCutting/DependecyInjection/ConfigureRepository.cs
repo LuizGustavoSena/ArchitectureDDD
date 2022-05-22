@@ -16,6 +16,10 @@ namespace Api.CrossCutting.DependecyInjection
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserImplementations>();
 
+            serviceCollection.AddScoped<IStateRepository, StateImplementations>();
+            serviceCollection.AddScoped<ICityRepository, CityImplementations>();
+            serviceCollection.AddScoped<IZipCodeRepository, ZipCodeImplementations>();
+
             var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION");
 
             serviceCollection.AddDbContext<MyContext>(

@@ -2,8 +2,8 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using Api.Domain.Dtos.User;
-using Api.Domain.Interfaces.Service.User;
+using Api.Domain.Dtos.City;
+using Api.Domain.Interfaces.Service.City;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,14 +12,15 @@ namespace Api.Application.Controllers
     [Authorize("Bearer")]
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class CitiesController : ControllerBase
     {
-        private IUserService _service;
-        public UsersController(IUserService service)
+        private ICityService _service;
+        public CitiesController(ICityService service)
         {
             _service = service;
         }
 
+        [Authorize("Bearer")]
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
@@ -54,16 +55,52 @@ namespace Api.Application.Controllers
             }
         }
 
-        [AllowAnonymous]
-        [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserDtoCreate user)
+        [Authorize("Bearer")]
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<ActionResult> GetCompleteById(Guid id)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             try
             {
-                var result = await _service.Post(user);
+                return Ok(await _service.GetCompleteById(id));
+            }
+            catch (ArgumentException ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [Authorize("Bearer")]
+        [HttpGet]
+        [Route("{code}")]
+        public async Task<ActionResult> GetCompleteByCode(int code)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            try
+            {
+                return Ok(await _service.GetCompleteByCode(code));
+            }
+            catch (ArgumentException ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [Authorize("Bearer")]
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] CityDtoCreate city)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            try
+            {
+                var result = await _service.Post(city);
 
                 if (result == null)
                     return BadRequest();
@@ -78,14 +115,14 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UserDtoUpdate user)
+        public async Task<ActionResult> Put([FromBody] CityDtoUpdate city)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             try
             {
-                var result = await _service.Put(user);
+                var result = await _service.Put(city);
 
                 if (result == null)
                     return BadRequest();
